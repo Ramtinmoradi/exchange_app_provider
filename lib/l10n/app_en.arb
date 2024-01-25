@@ -1,0 +1,13 @@
+{
+  "appName": "EXCHANGE",
+  "marquee": "\uD83D\uDD0A this is place for news in application",
+  "home": "HOME",
+  "setting": "SETTING",
+  "darkMode": "DARK MODE",
+  "persian": "PERSIAN",
+  "marketView": "MARKET VIEW",
+  "profile": "PROFILE",
+  "watchList": "WATCHLIST",
+  "buy": "BUY",
+  "sell": "SELL"
+}
