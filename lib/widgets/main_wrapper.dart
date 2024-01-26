@@ -22,11 +22,11 @@ class MainWrapper extends StatelessWidget {
       bottomNavigationBar: BottomNavigationBarCustom(pageController: _pageController),
       body: PageView(
         controller: _pageController,
-        children: <Widget>[
+        children: const <Widget>[
           HomePage(),
-          const MarketViewPage(),
-          const WatchListPage(),
-          const ProfilePage(),
+          MarketViewPage(),
+          WatchListPage(),
+          ProfilePage(),
         ],
       ),
     );

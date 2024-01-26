@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:provider_test_project/providers/crypto_data_provider.dart';
 
 import 'widgets/main_wrapper.dart';
 import 'providers/language_provider.dart';
@@ -19,6 +20,7 @@ void main() {
       providers: [
         ChangeNotifierProvider(create: (context) => ThemeProvider()),
         ChangeNotifierProvider(create: (context) => LanguageProvider()),
+        ChangeNotifierProvider(create: (context) => CryptoDataProvider()),
       ],
       child: const MyApp(),
     ),
